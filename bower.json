@@ -4,7 +4,13 @@
   "dependencies": {
     "modernizr": "~2.6.2",
     "jquery": "~1.9.1",
-    "EaselJS":  "latest"
+    "EaselJS":  "latest",
+    "angular": "~1.0.5",
+    "json3": "~3.2.4",
+    "es5-shim": "~2.0.8"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "angular-mocks": "~1.0.5",
+    "angular-scenario": "~1.0.5"
+  }
 }

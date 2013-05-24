@@ -23,10 +23,11 @@
     c.drawLine = function() {
         this.line.graphics.clear().beginStroke(this.color)
             .moveTo(this.button1.x, this.button1.y)
-            .bezierCurveTo(this.button1.x-100, this.button1.y-100,
+            /*.bezierCurveTo(this.button1.x-100, this.button1.y-100,
                 this.button2.x+100,
                 this.button2.y+100,
-                this.button2.x, this.button2.y)
+                this.button2.x, this.button2.y)*/
+            .lineTo(this.button2.x, this.button2.y)
             .endStroke();
     };
 
