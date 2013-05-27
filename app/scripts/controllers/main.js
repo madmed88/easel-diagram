@@ -12,6 +12,7 @@ angular.module('easeldiagramApp').controller('MainCtrl', function ($scope) {
 
 		//new stage
 		stage = new createjs.Stage(document.getElementById('canvas'));
+		createjs.Touch.enable(stage);
 		stage.enableMouseOver();
 
 		btn1 = new Button('Hello!', '#F00');

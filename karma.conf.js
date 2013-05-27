@@ -9,6 +9,7 @@ files = [
   JASMINE_ADAPTER,
   'app/components/angular/angular.js',
   'app/components/angular-mocks/angular-mocks.js',
+  'app/components/EaselJS/lib/easeljs-0.6.1.min.js',
   'app/scripts/*.js',
   'app/scripts/**/*.js',
   'test/mock/**/*.js',
